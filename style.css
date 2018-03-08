@@ -1,0 +1,56 @@
+body {
+  font-family: 'Georgia Pro', Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+
+article {
+  max-width: 36rem;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Avenir Next' , SegoeUI, arial, sans-serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 2.605rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.466rem;
+  font-weight: 600;
+  letter-spacing: 0.01rem;
+}
+
+h3 {
+  font-size: 1.333rem;
+}
+
+p {
+  color: #3b4348;
+  word-spacing: 0.1rem;
+}
+
+a {
+  color: #235ea7;
+}
+
+sup {
+  font-size: smaller;
+  vertical-align: super;
+}
+
+i {
+  font-style: italic;
+}
+
+p + p {
+  text-indent: 1.25rem;
+}
