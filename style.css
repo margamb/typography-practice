@@ -1,12 +1,15 @@
 body {
-  font-family: 'Georgia Pro', Georgia, Times, 'Times New Roman', serif;
-  font-size: 1.1em;
-  line-height: 1.5;
+  font-family: 'Karma', 'Georgia Pro', Georgia, Times, 'Times New Roman', serif;
+  font-size: 1rem;  /* 16 ritmo vertical tipografico*/
+  line-height: 1.5; /* 24 */
+  font-variant-ligatures: common-ligatures discretionary-ligatures;
+  font-feature-settings: 'liga', 'dlig';
 }
 
 article {
   max-width: 36rem;
   margin: 0 auto;
+  padding:0 2rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -15,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2.605rem;
+  font-size: 2.5rem; /* 40 */
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05rem;
@@ -24,13 +27,14 @@ h1 {
 }
 
 h2 {
-  font-size: 1.466rem;
+  font-size: 1.5rem; /* 24 */
   font-weight: 600;
   letter-spacing: 0.01rem;
 }
 
 h3 {
   font-size: 1.333rem;
+  margin-top: 0.166rem; /* la suma de font y margin es 24 (16* 1.5= 24) */
 }
 
 p {
